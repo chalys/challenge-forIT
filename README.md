@@ -5,19 +5,23 @@ Aplicación completa de gestión de tareas con backend en Node.js/Express y fron
 ## Instalación y Ejecución
 
 1. Clonar el repositorio:
-    git clone https://github.com/tu-usuario/challenge-forIT.git
-    cd challenge-forIT
+   ```bash
+   git clone https://github.com/tu-usuario/challenge-forIT.git
+   cd challenge-forIT
 
 2. Ejecutar el script de inicialización, soporta tanto Linux como Windows (vía Git Bash):
+
+    ```bash    
     chmod +x init.sh
     ./init.sh
 
-3. Acceder a la aplicación 
+3. Acceder a la aplicación:
+
+    ```bash
     Backend: http://localhost:3000
     Frontend: http://localhost:5173
 
 ## Tecnologías Utilizadas
-
 ### Backend
     Node.js
     Express
