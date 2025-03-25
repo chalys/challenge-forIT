@@ -8,7 +8,7 @@ const listTasks = async (req, res) => {
     res.json(tasks);
   } catch (error) {
     console.error(error);
-    res.status(500).json({ error: 'Error al obtener las tareas' });
+    res.status(500).json({ error: "Error al obtener las tareas" });
   }
 };
 
